@@ -37,7 +37,7 @@ header ul li {
     border-radius: 0.5rem;
 }
 
-nav ul li img {
+ul li img {
     height: 30px;
     width: 30px;
     border-radius: 50%;
