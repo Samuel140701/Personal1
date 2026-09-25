@@ -21,9 +21,6 @@ header {
     flex-wrap: wrap;
     margin-bottom: 0.5rem;
     background: linear-gradient(to top right, lightslategrey, black);
-    height: fit-content;
-    margin: .5em;
-    padding: .5em;
 }
 
 header h1 {
@@ -69,32 +66,15 @@ header ul li a:hover {
 
 main {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     margin: 5px;
     padding: 5px;
     gap: 5px;
-    min-height: fit-content;
-}
-
-@media (max-width:980px) {
-    main {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: flex-start;
-        margin: 5px;
-        padding: 5px;
-        gap: 5px;
-        min-height: 500px;
-    }
+    height: 500px
 }
 
 .git {
-    display: flex;
-    flex-direction: column;
-    flex-shrink: 1;
-    flex-grow: 1;
     margin: 10px;
     padding: 15px;
     width: 50%;
@@ -102,7 +82,6 @@ main {
     border-radius: 10px;
     background-color: orangered;
     line-height: 2em;
-    overflow: hidden;
 }
 
 .git h2 {
@@ -110,10 +89,6 @@ main {
 }
 
 .github {
-    display: flex;
-    flex-direction: column;
-    flex-shrink: 1;
-    flex-grow: 1;
     margin: 10px;
     padding: 15px;
     width: 50%;
@@ -127,15 +102,13 @@ main {
     margin: .5em 0 .5em 0;
 }
 
-.flexbox-container {
-    background: #e9e9e9;
+#flexbox-container {
     min-height: 100vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+
     padding: 2em;
-    width: 100%;
 }
 
 .item {
@@ -153,9 +126,9 @@ main {
     display: flex;
     justify-self: center;
     align-self: center;
-    /*clip-path: polygon(
+    clip-path: polygon(
         0 0, 100% 0%, 100% 80%, 50% 100%, 0% 80%
-    );*/
+    );
 }
 
 .shadow-container {

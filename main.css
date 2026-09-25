@@ -155,7 +155,7 @@ header ul li a:hover {
     text-align: center;
 }
 
-@media (max-width:980px) {
+/*@media (max-width:980px) {
     #grid-container {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -189,7 +189,7 @@ header ul li a:hover {
     align-content: center;
     text-align: center;
 }
-}
+}*/
 
 .grid-container {
     display: grid;
